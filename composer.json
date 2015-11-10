@@ -1,0 +1,27 @@
+{
+    "name": "aldoanizio/makocaptcha",
+    "description": "Captcha plugin for Mako Framework",
+    "keywords": ["mako", "framework", "captcha"],
+    "homepage": "https://github.com/aldoanizio/makocaptcha",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Aldo Anizio Lugão Camacho",
+            "email": "aldoanizio@yahoo.com.br",
+            "homepage": "http://www.softr.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "aldoanizio\\makocaptcha\\": "src"
+        }
+    },
+    "require": {
+        "gregwar/captcha": "1.*"
+    },
+    "extra": {
+        "branch-alias": {
+             "dev-master": "1.0-dev"
+        }
+    }
+}
